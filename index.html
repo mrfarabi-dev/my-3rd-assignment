@@ -9,9 +9,134 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind css daisy ui -->
-    
+
+    <!-- google font manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- google font manrope -->
+
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+
 </head>
-<body>
-    
+<body class="font-manrope">
+    <header class="lg:container lg:mx-auto">
+        <!-- navbar -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="font-bold menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52">
+
+                      <li><a>Home</a></li>      
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost font-extrabold normal-case text-xl lg:text-5xl">Hockey<span class="text-orange-600">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class=" font-bold menu text-base menu-horizontal px-1">
+                    <li><a><span class="text-orange-600">Home</span></a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end sm:pr-4">
+                  <a class="btn font-bold bg-btn btn-error text-white">Get Ticket</a>
+                </div>
+              </div>
+         </nav>
+        <!-- navbar -->
+          
+        <div class="mt-16 bg-base-100 relative">
+       <!-- banner section --> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="./Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+       <!-- banner section -->
+        </div>
+    </header>
+    <main class="container mx-auto">
+      <!-- progress section -->
+      <section class="mt-20">
+             <hr class="border-dashed space-y-5">
+       <!-- section 1 title -->
+       <div class=" text-center space-y-4">
+        <h1 class="text-5xl font-extrabold text-black">Professional Hockeys Club</h1>
+        <p class="font-bold">Hockey is a term used to denote a family of various types of both summer and <br> winter team sports which originated on either an outdoor field, sheet of ice. </p>
+        </div>
+             <hr class="border-dashed mb-10 items-center">
+       <!-- section 1 title -->
+       <div class="pt-10 text-center grid lg:grid-cols-4 grid-cols-1 gap-5">
+          <!-- first progress  -->
+          <div class="card bg-base-100 shadow-xl">
+            <div class="text-center">
+              <div class="radial-progress text-orange-600" style="--value:70;" role="progressbar"><span class="text-black font-extrabold">87%</span></div>
+            </div>
+            <div class="card-body space-y-4">
+              <h2 class=" text-2xl font-extrabold text-black">Prayer Facility</h2>
+              <p class="font-bold">Hockey is a term used to denote a family of various types of both summer and winter team sports which originated.</p>
+            </div>
+          </div>
+          <!-- first progress -->
+          <!-- first progress  -->
+          <div class="card bg-base-100 shadow-xl">
+            <div class="text-center">
+              <div class=" radial-progress text-green-600" style="--value:70;" role="progressbar"><span class="text-black font-extrabold">95%</span></div>
+            </div>
+            <div class="card-body space-y-4">
+              <h2 class=" text-2xl font-extrabold text-black">Experienced Coach</h2>
+              <p class="font-bold">Hockey is a term used to denote a family of various types of both summer and winter team sports which originated.</p>
+            </div>
+          </div>
+          <!-- first progress -->
+          <!-- first progress  -->
+          <div class="card bg-base-100 shadow-xl">
+            <div class="text-center">
+              <div class="radial-progress text-yellow-600" style="--value:70;" role="progressbar"><span class="text-black font-extrabold">90%</span></div>
+            </div>
+            <div class="card-body space-y-4">
+              <h2 class=" text-2xl font-extrabold text-black">Senior Player</h2>
+              <p class="font-bold">Hockey is a term used to denote a family of various types of both summer and winter team sports which originated.</p>
+            </div>
+          </div>
+          <!-- first progress -->
+          <!-- first progress  -->
+          <div class="card bg-base-100 shadow-xl">
+            <div class="text-center">
+              <div class="radial-progress text-blue-600" style="--value:70;" role="progressbar"><span class="text-black font-extrabold">80%</span></div>
+            </div>
+            <div class="card-body space-y-4">
+              <h2 class=" text-2xl font-extrabold text-black">Training Ground</h2>
+              <p class="font-bold">Hockey is a term used to denote a family of various types of both summer and winter team sports which originated.</p>
+            </div>
+          </div>
+          <!-- first progress -->
+       </div>
+    </section>
+      <!-- progress section -->
+
+      
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
