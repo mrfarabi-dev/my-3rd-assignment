@@ -1,0 +1,24 @@
+.img-1{
+    background: rgba(19, 19, 24, 0.50) url('./Images/2.png') ;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 383px;
+}
+.img-2{
+    background: rgba(19, 19, 24, 0.50) url('./Images/3.png') ;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 383px;
+}
+
+.img-3{
+    background: rgba(19, 19, 24, 0.50) url('./Images/4.png') ;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 383px;
+    margin-top: 20px;
+    position: relative;
+}
